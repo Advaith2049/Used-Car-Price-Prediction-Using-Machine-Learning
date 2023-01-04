@@ -47,7 +47,9 @@ After the data was loaded in with pandas, it was cleaned, and the following chan
 
 Some highlights of the EDA are as follows:
 
-![image info](/images/1.png)
+![alt text](https://raw.githubusercontent.com/Advaith2049/Used-Car-Price-Prediction-Using-Machine-Learning/main/images/CPP1.png "Logo Title Text 1")
+
+
 
 
 ### **Feature Selection and Pre-Processing**
