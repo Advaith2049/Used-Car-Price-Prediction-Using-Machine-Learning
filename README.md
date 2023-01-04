@@ -1,6 +1,6 @@
 # Used-Car-Price-Prediction-Using-Machine-Learning
 
-#### **Used Car Price Prediction: An Overview**  
+### **Used Car Price Prediction: An Overview**  
 
 * Cleaned the dataset, removed outliers, and pre-processed the data in a format suitable to the objective 
 
@@ -11,13 +11,13 @@
 * Charted a comparison table for the ease of determining the best model and accuracy
 
 
-#### **Codes and Resources Used**
+### **Codes and Resources Used**
 
 * **Programming Language:** Python 3.11.1
 
 * **Packages:** pandas, numpy, seaborn, matplotlib, scipy, sklearn, statsmodels, tensorflow
 
-#### **About the Dataset**
+### **About the Dataset**
 
 * The Car Price Prediction dataset has a total of 18 columns and 19237 rows.
 
@@ -26,7 +26,7 @@
 * The target (or) dependent variable which needs to be predicted is the column 'Price' 
 
 
-#### **Data Cleaning**
+### **Data Cleaning**
 
 After the data was loaded in with pandas, it was cleaned, and the following changes were made:
 
@@ -43,21 +43,21 @@ After the data was loaded in with pandas, it was cleaned, and the following chan
 * Outliers were detected in the columns – Levy, Cylinders, Airbags, Engine_vol, Mileage, and Price, and subsequently removed
 
 
-#### **EDA (Exploratory Data Analysis)**
+### **EDA (Exploratory Data Analysis)**
 
 Some highlights of the EDA are as follows:
 
 ![image info](/images/1.png)
 
 
-#### **Feature Selection and Pre-Processing**
+### **Feature Selection and Pre-Processing**
 
 * VIF or Variance Inflation Factor was utilised to select the features that would influence the target variable the most. 
 
 * ‘Cylinders’, ‘Engine_vol’, and ‘Levy’ were dropped to ensure a better VIF score and less multicolinearity.  
 
 
-#### **Model Building**
+### **Model Building**
 
 The categorical variables were first transformed into dummy variables using ‘OneHotEncoder’ and ‘ColumnTransformer’. Then, the entire dataset was split into training and testing datasets of the ratio 80:20. Multiple models were applied and MAE or Mean Absolute Error was the metric used to evaluate these models. 
 
@@ -72,7 +72,7 @@ The applied models were:
 * Neural Networks
 
 
-#### **Model Performance**
+### **Model Performance**
 
 The Bagging Repressor outperformed all the models and the model comparison table is as follows:
 
