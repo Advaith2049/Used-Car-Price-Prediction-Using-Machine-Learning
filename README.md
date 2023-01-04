@@ -74,5 +74,7 @@ The applied models were:
 
 The Bagging Repressor outperformed all the models, followed by the Random Forest Regressor and the XG Boost Regressor
 
+
 [Click Here for the Google Colab Notebook](https://colab.research.google.com/github/Advaith2049/Used-Car-Price-Prediction-Using-Machine-Learning/blob/main/Used-Car-Price_Prediction-Using-Machine-Learning.ipynb)
 
+[Click Here for the Power Point Presentation](https://drive.google.com/file/d/1MFR1a7TgGDhewPkc1VZgr-g0QIur6qR7/view?usp=sharing)
